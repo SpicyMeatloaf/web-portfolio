@@ -4,9 +4,9 @@ export const StyledHeader = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #333;
+    background-color: #258bdf;
     color: #fff;
-    height: 3rem;
+    height: 4rem;
     padding: 0 1rem;
     box-shadow: 1px 1px 3px 1px #808080;
     h1 {
@@ -46,3 +46,15 @@ export const StyledLayout = styled.div`
     }
 `
 
+export const StyledProject = styled.article`
+
+`
+
+export const StyledRow = styled.section`
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+`
+export const StyledForm = styled.form`
+    width:200px;
+    padding:20px;
+`

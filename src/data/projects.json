@@ -1,23 +1,23 @@
 [
     {
-        "title": "First Project",
-        "description": "The first",
-        "githubLink": "http://github.com/",
-        "deployedLink": "http://website.com/",
-        "image": "images/image-one.png"
+        "title": "At the Bus Stop",
+        "description": "An app for viewing information on Studio Ghibli films and leaving personal reviews and ratings on them.",
+        "githubLink": "https://github.com/SpicyMeatloaf/studio-ghibli-reviews-frontend",
+        "deployedLink": "https://studio-ghibli-reviews.netlify.app/",
+        "image": "images/icon.png"
     },
     {
-        "title": "Second Project",
-        "description": "The second",
-        "githubLink": "http://github.com/",
-        "deployedLink": "http://website.com/",
-        "image": "images/image-one.png"
+        "title": "The Loremaster's Board",
+        "description": "An app for creating lists of Dungeons and Dragons creatures tailored for dungeon masters who would rather see it all in one place.",
+        "githubLink": "https://github.com/SpicyMeatloaf/dnd-quick-encounter-reference-builder",
+        "deployedLink": "https://dnd-dm-encounter-reference.herokuapp.com/",
+        "image": "images/icon.png"
     },
     {
-        "title": "Third Project",
-        "description": "The third",
-        "githubLink": "http://github.com/",
-        "deployedLink": "http://website.com/",
-        "image": "images/image-one.png"
+        "title": "MusicMemories",
+        "description": "An app that allows users to keep track of the songs, albums, and artists that they’re listening to each day, along with personal notes to create long lasting memories, a veritable music journal customizable to your tastes.",
+        "githubLink": "https://github.com/SpicyMeatloaf/music-memories",
+        "deployedLink": "https://alita-music-memories.herokuapp.com/",
+        "image": "images/icon.png"
     }
 ]

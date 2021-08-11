@@ -1,6 +1,7 @@
 import React, {useState} from "react"
 import Layout from "../components/layout"
 import Head from "../components/head"
+import {StyledForm} from "../styles/style-components"
 import {navigate} from "gatsby-link"
 
 const Contact = () => { 
@@ -39,7 +40,8 @@ const Contact = () => {
         <Layout>
             <Head page="Contact" />
             <h1>Contact</h1>
-            <form name="contact" data-netlify="true" onSubmit={handleSubmit}>
+            <StyledForm>
+            <form className="contact" name="contact" data-netlify="true" onSubmit={handleSubmit}>
                 <input type="hidden" name="form-name" value="contact" />
                 <label>
                     Name
@@ -55,6 +57,7 @@ const Contact = () => {
                 </label>
                 <input type="submit" value="Contact Me" />
             </form>
+            </StyledForm>
         </Layout>
     )
 }

@@ -5,11 +5,6 @@ import { StyledHeader } from '../styles/style-components'
 
 const Header = (props) => (
     <StyledHeader>
-        <h1>
-            <Link to="/">
-                Jordan JS
-            </Link>
-        </h1>
         <nav>
             <ul>
                 <li>
@@ -22,10 +17,7 @@ const Header = (props) => (
                     <Link to="/projects">Projects</Link>
                 </li>
                 <li>
-                    <Link to="/blog">Blog</Link>
-                </li>
-                <li>
-                    <Link to="/contact">Contact Me</Link>
+                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>
         </nav>
