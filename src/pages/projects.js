@@ -5,7 +5,7 @@ import data from "../data/projects.json"
 // import {StaticImage} from "gatsby-plugin-image"
 
 const Projects = (props) => {
-    console.log(data)
+    
     return (
       <Layout>
         <Head page="Projects" />
