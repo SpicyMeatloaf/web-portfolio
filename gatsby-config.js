@@ -17,14 +17,13 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    "gatsby-transformer-remark",
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "pages",
-        path: "./src/pages/",
-      },
-      __key: "pages",
+        name: "blog",
+        path: "./src/posts"
+      }
     },
+    "gatsby-transformer-remark"
   ],
 };
