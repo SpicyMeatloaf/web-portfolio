@@ -57,4 +57,13 @@ export const StyledRow = styled.section`
 export const StyledForm = styled.form`
     width:200px;
     padding:20px;
+    box-sizing: border-box;
+    input {
+        padding:2px;
+        margin:10px 0 20px;
+    }
+    textarea {
+        padding:3px;
+        margin:10px 0;
+    }
 `
