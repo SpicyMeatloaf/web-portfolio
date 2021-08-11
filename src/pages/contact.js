@@ -4,24 +4,26 @@ import Head from "../components/head"
 import {navigate} from "gatsby-link"
 
 const Contact = () => { 
-    
+
     return (
         <Layout>
             <h1>Contact</h1>
-            <form action="" method="post">
+            <form name="contact" method="POST" data-netlify="true" >
+                <input type="hidden" name="form-name" value="contact" />
                 <label>
                     Name
-                    <input type="text" />
+                    <input type="text" name="name" />
                 </label>
                 <label>
                     Email
-                    <input type="email" />
+                    <input type="email" name="email" />
                 </label>
                 <label>
                     Message
-                    <textarea />
+                    <textarea name="message" />
                 </label>
             </form>
+            <input type="submit" value="Contact Me" />
         </Layout>
     )
 }
