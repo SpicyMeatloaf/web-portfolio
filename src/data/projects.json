@@ -1,0 +1,23 @@
+[
+    {
+        "title": "First Project",
+        "description": "The first",
+        "githubLink": "http://github.com/",
+        "deployedLink": "http://website.com/",
+        "image": "images/image-one.png"
+    },
+    {
+        "title": "Second Project",
+        "description": "The second",
+        "githubLink": "http://github.com/",
+        "deployedLink": "http://website.com/",
+        "image": "images/image-one.png"
+    },
+    {
+        "title": "Third Project",
+        "description": "The third",
+        "githubLink": "http://github.com/",
+        "deployedLink": "http://website.com/",
+        "image": "images/image-one.png"
+    }
+]

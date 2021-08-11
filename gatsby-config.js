@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "Portfolio",
+    title: "Jordan Lee",
     author: "Jordan Lee",
     description: "Personal website",
   },
