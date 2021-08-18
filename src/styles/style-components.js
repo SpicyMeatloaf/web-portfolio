@@ -53,10 +53,8 @@ export const StyledProject = styled.article`
     min-width: 460px;
 `
 
-export const StyledRow = styled.section`
-
-`
 export const StyledForm = styled.form`
+    margin: 0 15% 0 15%;
     width:200px;
     padding:20px;
     box-sizing: border-box;
@@ -68,4 +66,22 @@ export const StyledForm = styled.form`
         padding:3px;
         margin:10px 0;
     }
+`
+
+export const StyledArticle = styled.article`
+    padding: 20px;
+    margin: 0 20% 0 20%;
+    width: 50%;
+    min-width: 460px;
+`
+
+export const PlaceholderCircle = styled.span`
+    height: 250px;
+    width: 250px;
+    line-height: 250px;
+    background-color: #777777;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    display: inline-block;
 `

@@ -39,8 +39,8 @@ const Contact = () => {
     return (
         <Layout>
             <Head page="Contact" />
-            <h1>Contact</h1>
             <StyledForm>
+            <h1>Contact</h1>
             <form className="contact" name="contact" data-netlify="true" onSubmit={handleSubmit}>
                 <input type="hidden" name="form-name" value="contact" />
                 <label>

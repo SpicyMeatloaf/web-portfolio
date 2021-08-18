@@ -4,7 +4,6 @@ import Head from "../components/head"
 import Project from "../components/project"
 
 import data from "../data/projects.json"
-import { StyledRow } from "../styles/style-components"
 // import {StaticImage} from "gatsby-plugin-image"
 
 const Projects = (props) => {
@@ -12,15 +11,13 @@ const Projects = (props) => {
     return (
       <Layout>
         <Head page="Projects" />
-        <StyledRow>
-            <section>
-                {
-                    data.map((project, idx) =>
-                        <Project props={project} id={idx} />
-                    )
-                }
-            </section>
-        </StyledRow>
+        <section>
+            {
+                data.map((project, idx) =>
+                    <Project props={project} id={idx} />
+                )
+            }
+        </section>
       </Layout>
     )
 }
