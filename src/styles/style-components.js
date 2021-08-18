@@ -47,12 +47,14 @@ export const StyledLayout = styled.div`
 `
 
 export const StyledProject = styled.article`
-
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    min-width: 460px;
 `
 
 export const StyledRow = styled.section`
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
+
 `
 export const StyledForm = styled.form`
     width:200px;

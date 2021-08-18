@@ -12,7 +12,6 @@ const Projects = (props) => {
     return (
       <Layout>
         <Head page="Projects" />
-        <h1>My Work</h1>
         <StyledRow>
             <section>
                 {

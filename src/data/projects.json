@@ -1,9 +1,9 @@
 [
     {
-        "title": "At the Bus Stop",
-        "description": "An app for viewing information on Studio Ghibli films and leaving personal reviews and ratings on them.",
-        "githubLink": "https://github.com/SpicyMeatloaf/studio-ghibli-reviews-frontend",
-        "deployedLink": "https://studio-ghibli-reviews.netlify.app/",
+        "title": "MusicMemories",
+        "description": "An app that allows users to keep track of the songs, albums, and artists that they’re listening to each day, along with personal notes to create long lasting memories, a veritable music journal customizable to your tastes.",
+        "githubLink": "https://github.com/SpicyMeatloaf/music-memories",
+        "deployedLink": "https://alita-music-memories.herokuapp.com/",
         "image": "images/icon.png"
     },
     {
@@ -14,10 +14,11 @@
         "image": "images/icon.png"
     },
     {
-        "title": "MusicMemories",
-        "description": "An app that allows users to keep track of the songs, albums, and artists that they’re listening to each day, along with personal notes to create long lasting memories, a veritable music journal customizable to your tastes.",
-        "githubLink": "https://github.com/SpicyMeatloaf/music-memories",
-        "deployedLink": "https://alita-music-memories.herokuapp.com/",
+        "title": "At the Bus Stop",
+        "description": "An app for viewing information on Studio Ghibli films and leaving personal reviews and ratings on them.",
+        "githubLink": "https://github.com/SpicyMeatloaf/studio-ghibli-reviews-frontend",
+        "githubLink2": "https://github.com/SpicyMeatloaf/studio-ghibli-reviews-backend",
+        "deployedLink": "https://studio-ghibli-reviews.netlify.app/",
         "image": "images/icon.png"
     }
 ]
