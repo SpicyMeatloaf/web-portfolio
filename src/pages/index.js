@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import Head from "../components/head"
 
 import { StyledArticle } from "../styles/style-components"
-import { PlaceholderCircle } from "../styles/style-components"
+import portrait from "../images/portrait.png"
 
 // markup
 const IndexPage = () => {
@@ -12,9 +12,7 @@ const IndexPage = () => {
       <Head page="Home" />
       <StyledArticle>
         <article>
-          <PlaceholderCircle>
-            <span>Picture here</span>
-          </PlaceholderCircle>
+          <img src={portrait} alt="" />
           <p>Hello, my name is: [Jordan Lee]</p>
         </article>
       </StyledArticle>

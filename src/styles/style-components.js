@@ -73,15 +73,9 @@ export const StyledArticle = styled.article`
     margin: 0 20% 0 20%;
     width: 50%;
     min-width: 460px;
-`
-
-export const PlaceholderCircle = styled.span`
-    height: 250px;
-    width: 250px;
-    line-height: 250px;
-    background-color: #777777;
-    border-radius: 50%;
-    color: white;
     text-align: center;
-    display: inline-block;
+    img {
+        width: 200px;
+        border-radius: 50%;
+    }
 `
