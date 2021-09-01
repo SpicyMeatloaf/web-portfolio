@@ -9,8 +9,8 @@
     {
         "title": "The Loremaster's Board",
         "description": "An app for creating lists of Dungeons and Dragons creatures tailored for dungeon masters who would rather see it all in one place.",
-        "githubLink": "https://github.com/SpicyMeatloaf/dnd-quick-encounter-reference-builder",
-        "deployedLink": "https://dnd-dm-encounter-reference.herokuapp.com/",
+        "githubLink": "https://github.com/SpicyMeatloaf/the-loremasters-board",
+        "deployedLink": "https://the-loremasters-board.herokuapp.com/",
         "image": "images/icon.png"
     },
     {
