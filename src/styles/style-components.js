@@ -69,13 +69,20 @@ export const StyledForm = styled.form`
 `
 
 export const StyledArticle = styled.article`
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
-    margin: 0 20% 0 20%;
-    width: 50%;
-    min-width: 460px;
     text-align: center;
-    img {
+    margin: 0 15% 0 15%;
+    .portrait {
         width: 200px;
         border-radius: 50%;
+    }
+    .icons {
+        width: 60px;
+    }
+    @media only screen and (max-width: 480px) {
+        margin: 0 0 0 0;
     }
 `
