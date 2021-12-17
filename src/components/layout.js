@@ -1,7 +1,6 @@
 import React from "react"
 
 import Header from "./header"
-import Footer from "./footer"
 import Head from "./head"
 
 import "../styles/reset.css"
@@ -10,7 +9,7 @@ import { StyledLayout } from "../styles/style-components"
 import { graphql, useStaticQuery } from "gatsby"
 
 const Layout = (props) => {
-    const {site: {siteMetadata: {author, title, /*description*/}}} = useStaticQuery(graphql`
+    const {site: {siteMetadata: {title, /*description*/}}} = useStaticQuery(graphql`
         query {
             site {
                 siteMetadata {
@@ -31,7 +30,7 @@ const Layout = (props) => {
                     {props.children}
                 </main>
             </div>
-            <Footer author={author} title={title}/>
+            {/* <Footer author={author} title={title}/> */}
         </StyledLayout>
     )
 }

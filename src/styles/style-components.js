@@ -4,7 +4,7 @@ export const StyledHeader = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #258bdf;
+    background-color: #07478f;
     color: #fff;
     height: 4rem;
     padding: 0 1rem;
@@ -47,10 +47,14 @@ export const StyledLayout = styled.div`
 `
 
 export const StyledProject = styled.article`
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
-    margin: auto;
-    width: 50%;
-    min-width: 460px;
+    margin: 0 15% 0 15%;
+    @media only screen and (max-width: 480px) {
+        margin: 0 0 0 0;
+    }
 `
 
 export const StyledForm = styled.form`

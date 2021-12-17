@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import { StyledHeader } from '../styles/style-components'
+import "../styles/style.css"
 
 const Header = (props) => (
     <StyledHeader>
@@ -12,9 +13,6 @@ const Header = (props) => (
                 </li>
                 <li>
                     <Link to="/projects">Projects</Link>
-                </li>
-                <li>
-                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>
         </nav>

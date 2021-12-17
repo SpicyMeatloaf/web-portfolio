@@ -1,0 +1,173 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 15% 0 15%;
+}
+
+projectIcons {
+  width: 30px;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.projectInfo h6 {
+    margin: 20px 20px 0 20px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    height: 33%;
+    display: flex;
+    align-items: center;
+  }
+  
+  h7 {
+    margin: 0px -20px 0;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 20px;
+  }
+  
+  .projectProjects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .projectGroup {
+    max-width: 850px;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto 100px auto;
+    transition-duration: 0.5s;
+    box-shadow: 0px 1px 5px;
+    padding: 20px;
+  }
+  
+  .projectGroupLeft {
+    background: linear-gradient(to right, #3c83df, #07478f);
+  }
+  
+  .projectGroupRight {
+    background: linear-gradient(to left, #3c83df, #07478f);
+  }
+  
+  .projectPreview {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(0%);
+    transition-duration: 0.5s;
+  }
+  
+  .projectInfo {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .projectInfoLeft {
+    align-items: flex-start;
+  }
+  
+  .projectInfoRight {
+    align-items: flex-end;
+  }
+  
+  .projectDescription {
+    z-index: 1;
+    width: 105%;
+    background-color: #fdf075;
+    text-align: right;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    color: black;
+    transition-duration: 0.5s;
+    font-size: 16px;
+    box-shadow: 0px 1px 5px;
+    padding: 5px;
+  }
+  
+  .projectDescriptionLeft {
+    text-align: left;
+  }
+  
+  .projectInfoRightBottom {
+    height: 33%;
+  }
+  
+  .projectSkills {
+    padding: 0;
+    margin: 10px 20px 10px 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .leftKeySkill {
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  
+  .projectSkill {
+    background-color: white;
+    background-color: #a6fff0;
+    border-radius: 10px;
+    color: black;
+    border: 1px solid white;
+    border: 1px solid #000000;
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+  
+  .projectAlignLeft {
+    margin: 7px 14px 7px 0px;
+  }
+  
+  .projectAlignRight {
+    margin: 7px 0 7px 14px;
+  }
+
+  .projectLinks {
+    padding: 0;
+    margin: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .projectLink,
+  .projectLink {
+    margin: 0 0 10px 10px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .projectLink:hover,
+  .projectLink:hover {
+    cursor: pointer;
+  }
